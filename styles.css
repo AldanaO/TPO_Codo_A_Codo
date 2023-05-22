@@ -1,0 +1,346 @@
+.flex-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items:center ;
+    margin:0%;
+    padding: 0%;
+  }
+  
+  .flex-container img{
+    width: 300px;
+    height: 300px;
+    margin:auto;
+    display: block;
+    box-shadow: 5px 5px 15px 5px rgb(68, 62, 62);
+
+  }
+  
+  .flex-container img:hover{
+    filter: blur(5px);
+    transition: all .3s ease-in;
+  }
+
+  .flex-container img:active{
+    box-shadow: none;
+    filter: none;
+  }
+  
+  article {
+    margin-right:5px ;
+    margin-left: 5px;
+    margin-bottom: 50px;
+    flex-basis: 30%;
+  }
+  
+
+  
+  @media (max-width: 768px) {
+    
+
+    header {
+      flex-direction: column;
+      align-items: flex-start;
+    }
+    
+    
+    nav {
+      margin-top: 10px;
+    }
+    article {
+      flex-basis: 48%;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    nav {
+      flex-direction: column;
+      margin-top: 10px;
+    }
+    
+    nav a {
+      margin-bottom: 10px;
+    }
+    article {
+      flex-basis: 100%;
+
+  
+    }
+   
+
+    
+  }
+    
+
+
+
+* {
+    box-sizing: border-box;
+    font-family: 'Lato', sans-serif;
+    text-decoration: none;
+}
+
+.ultnoti {
+  text-align: center;
+  margin-top: 2px;
+  text-shadow: 2px 2px 0px #FFFFFF, 5px 4px 0px rgba(0,0,0,0.15);
+}
+
+
+ 
+
+.art-h3 , .art-p{
+  text-align: center;
+  color: #0989c9;
+  background-color: rgb(253, 253, 250) ;
+}
+
+.art-p{
+  text-align: center;
+  color: black;
+  background-color: rgb(253, 253, 250) ;
+}
+
+/**NOTICIAS INDIVIDUALES**/
+
+.noticia{
+  border: solid 2px;
+  border-radius: 10px;
+  box-shadow: inset;
+  border-color: #1C6EA4;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+.noticia h2{
+  text-align: center;
+  margin-left: 30%;
+  margin-right: 30%;
+  color: #130606;
+  background: #FFFFFF;
+  text-shadow: 2px 2px 0px #FFFFFF, 5px 4px 0px rgba(0,0,0,0.15);
+  font-size: 30px;
+}
+
+.noticia img{
+  max-width: 500px;
+  max-height: 500px;
+  display: block;
+  margin: auto;
+  margin-bottom: 40px;
+  border-radius: 5px;
+  box-shadow: 5px 5px 15px 5px rgb(68, 62, 62);
+}
+
+.noticia p{
+  font-size: 20px;
+  text-align:justify;
+  color: black;
+}
+
+
+/**HEADER**/
+
+header {
+  display: flex;
+  justify-content:space-between;
+  align-items:center;
+}
+
+.logo {
+  width: 120px;
+  height: 120px;
+}
+
+nav {
+  display: flex;
+  color:rgb(17, 151, 160);
+  font-weight: 600;
+  margin: 20px;
+  
+}
+
+nav a {
+  margin-right: 25px;
+  color:  #0989c9;
+  justify-content: space-between;
+  text-decoration: none;
+  transition: all 0.5s;
+}
+
+nav a:visited {
+  color: rgb(17, 151, 160);
+}
+
+nav a:hover{
+  color: rgb(165, 32, 11);
+  transition: 0.3s;
+}
+
+.site-name {
+  font-size: 40px;
+  font-weight: 600;
+  color: #333333;
+  background: #FFFFFF;
+  text-shadow: 2px 2px 0px #FFFFFF, 5px 4px 0px rgba(0,0,0,0.15);
+ 
+  
+}
+
+/**FOOTER**/
+
+footer {
+  background-color: #268aa3; 
+  color: #fff;
+  font-family: 'Lato', sans-serif;
+  padding: 10px 0;
+  text-align: center;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+
+}
+
+footer section {
+  padding: 0;
+}    
+
+#mapa{
+  width: 200px;
+  height: 150px;
+}
+
+#pie_pagina {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+#pie_pagina section {
+  width: 30%; 
+  padding: 20px 0;
+  box-sizing: border-box;
+}
+
+
+
+#contacto h3, #contacto iframe, #contacto p {
+margin-bottom: 10px;
+}
+
+
+#logodefooter {
+  flex-basis: 45%; 
+  text-align: center;
+  
+}
+
+
+
+#redes_sociales {
+  width: 100%;
+  text-align: center;
+  justify-content: space-around;
+  padding-left: 20px;
+  padding-right: 20px;
+  }
+
+#redes_sociales a {
+  font-size: 38px; /* Ajusta el tamaño de fuente */
+  margin-right: 24px; /* Agrega un margen derecho entre los iconos */
+  color: #fbfcfc; /* Cambia el color a blnco */
+}
+
+#redes_sociales a i:hover {
+  color: rgb(204, 0, 255); /* Cambia el color al pasar el mouse por encima */
+  transform: scale(1.2); /* Aumenta el tamaño del icono al 120% al pasar el mouse por encima */
+}
+
+/**FORMULARIO**/
+body {
+  font-family: Lato, sans-serif;
+  
+}
+
+
+h1 {
+text-align: center;
+margin-top: 1em;
+color: #00b5e2;
+}
+
+.contenedor {
+max-width: 800px;
+margin: 0 auto;
+padding: 2em;
+}
+
+label {
+display: block;
+margin-top: 1em;
+font-weight: bold;
+color: #00b5e2;
+}
+
+input[type="text"],
+input[type="date"],
+input[type="number"],
+textarea {
+display: block;
+width: 100%;
+padding: 0.5em;
+margin-top: 0.5em;
+font-size: 1em;
+border: 2px solid #ccc;
+border-radius: 0.25em;
+}
+
+input[type="radio"] {
+display: inline-block;
+margin: 0.25em;
+}
+
+.radio-group label {
+margin-right: 1em;
+}
+
+button[type="submit"],
+input[type="reset"] {
+display: block;
+margin-top: 1em;
+padding: 0.5em;
+font-size: 1em;
+background-color: #00b5
+
+/* Estilos para el formulario */
+#formulario {
+display: flex;
+flex-direction: column;
+background-color: #0a5588; /* Color de fondo celeste claro */
+padding: 2em;
+}
+label {
+margin-top: 1.5em;
+}
+
+input[type="reset"] {
+background-color: #BFBFBF;
+color: #ffffff;
+}
+
+/* Estilos para los comentarios */
+label[for="comentarios"] {
+margin-top: 2em;
+}
+
+textarea {
+height: 100px;
+}
+
+/* Estilos específicos para dispositivos móviles */
+@media screen and (max-width: 480px) {
+.contenedor {
+  padding: 1em;
+}
+}
+
