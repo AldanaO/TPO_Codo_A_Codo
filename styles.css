@@ -67,7 +67,7 @@
   
     }
    
-
+  
     
   }
     
@@ -208,6 +208,7 @@ footer section {
 #mapa{
   width: 200px;
   height: 150px;
+  
 }
 
 #pie_pagina {
@@ -221,6 +222,11 @@ footer section {
   padding: 20px 0;
   box-sizing: border-box;
 }
+#contacto {
+  text-align:center;
+  font-weight: 900;
+  margin-right: 30px;
+}
 
 
 
@@ -229,11 +235,7 @@ margin-bottom: 10px;
 }
 
 
-#logodefooter {
-  flex-basis: 45%; 
-  text-align: center;
-  
-}
+
 
 
 
@@ -246,15 +248,42 @@ margin-bottom: 10px;
   }
 
 #redes_sociales a {
-  font-size: 38px; /* Ajusta el tamaño de fuente */
-  margin-right: 24px; /* Agrega un margen derecho entre los iconos */
-  color: #fbfcfc; /* Cambia el color a blnco */
+  font-size: 38px; 
+  margin-right: 24px; 
+  color: #fbfcfc; 
 }
 
 #redes_sociales a i:hover {
-  color: rgb(204, 0, 255); /* Cambia el color al pasar el mouse por encima */
-  transform: scale(1.2); /* Aumenta el tamaño del icono al 120% al pasar el mouse por encima */
+  color: rgb(204, 0, 255); 
+  transform: scale(1.5); 
+  display: inline-block;
 }
+
+
+#miBoton {
+margin-right: 20px ;
+background-color: #ffffff;
+border: 2px solid #68c3d7;
+color: #0989c9;
+padding: 10px 20px;
+font-size: 16px;
+font-weight: 700;
+cursor: pointer;
+transition: background-color 0.3s, color 0.3s;
+}
+
+#miBoton:hover {
+  background-color: #0caace;
+  color: #ffffff;
+  transform: ;
+}
+
+#miBoton:focus {
+  outline: none;
+}
+
+
+  
 
 /**FORMULARIO**/
 body {
