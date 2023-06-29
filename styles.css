@@ -15,11 +15,6 @@
     box-shadow: 5px 5px 15px 5px rgb(68, 62, 62);
 
   }
-  
-  .flex-container img:hover{
-    filter: blur(5px);
-    transition: all .3s ease-in;
-  }
 
   .flex-container img:active{
     box-shadow: none;
@@ -275,7 +270,7 @@ transition: background-color 0.3s, color 0.3s;
 #miBoton:hover {
   background-color: #0caace;
   color: #ffffff;
-  transform: ;
+  /* transform: ; */
 }
 
 #miBoton:focus {
@@ -339,10 +334,11 @@ display: block;
 margin-top: 1em;
 padding: 0.5em;
 font-size: 1em;
-background-color: #00b5
+background-color: #00b5;
+}
 
 /* Estilos para el formulario */
-#formulario {
+#formulario{
 display: flex;
 flex-direction: column;
 background-color: #0a5588; /* Color de fondo celeste claro */
