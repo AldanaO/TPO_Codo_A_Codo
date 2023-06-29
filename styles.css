@@ -275,7 +275,7 @@ transition: background-color 0.3s, color 0.3s;
 #miBoton:hover {
   background-color: #0caace;
   color: #ffffff;
-  transform: ;
+  /* transform: ; */
 }
 
 #miBoton:focus {
@@ -339,7 +339,8 @@ display: block;
 margin-top: 1em;
 padding: 0.5em;
 font-size: 1em;
-background-color: #00b5
+background-color: #00b5;
+}
 
 /* Estilos para el formulario */
 #formulario {
